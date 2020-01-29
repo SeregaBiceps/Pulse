@@ -1,0 +1,43 @@
+.client {
+    margin-bottom: 100px;
+    &:last-child {
+        margin-bottom: 71px;
+    }
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: #0d0d0d;
+        margin-bottom: 70px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        min-width: 169px;
+        height: 169px;
+        margin-right: 62px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+        line-height: 18px;
+    }
+    &__achivement {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+        padding: 10px 0 15px 0;
+        line-height: 14px;
+    }
+    &__comment {
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+        div {
+            padding-top: 15px;
+        }
+    }
+}
